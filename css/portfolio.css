@@ -9,6 +9,9 @@
   }
 
   /* Shared Style */
+  .secendary-bg{
+    background-color: #FFF8F3;
+  }
   .text-primary{
     color: #FD6E0A;
   }
@@ -24,6 +27,17 @@
      border-radius: 5px;
      border: none;
 
+  }
+  .section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    
+
+  }
+  .section-description{
+    color: #757575;
+    font-size: 18px;
   }
 
   /* header Oftion */
@@ -82,6 +96,34 @@ nav li a{
   margin-left: 20px;
 }
 .second-btn{
-  background-color:white ;
-  border: #FD6E0A;
+  background-color: #FFF8F3;
+  border: 1px solid #FD6E0A ;
+  color:#FD6E0A ;
+  margin-left: 30px;
+}
+main{
+  max-width: 1140px;
+  margin:0 auto; 
+  
+}
+
+/* abut section */
+.about{
+  border-radius: 10px;
+  padding: 130px 150px ;
+  text-align: center;
+  margin-top: 50px;
+}
+.about-items{
+  display: flex;
+  justify-content: space-around;
+}
+.item-title{
+ color: #757575;
+
+}
+.item-description{
+  font-weight: bold;
+  color: #757575;
+
 }
